@@ -6,59 +6,65 @@ section:
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: JIO
+    url: "https://www.jio.com/"
+    location: Hyderabad Branch
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: JIO is an Indian telecommunications company and a subsidiary of Jio Platforms.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Machine Learning Intern
+    start: May 2023
+    end: Sept 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Conducted trend analysis using KNN machine learning, Achieving an 90% accuracy, enabling data-driven decisions.
+    - Enhanced web app performance by transitioning to React JS, Resulting 30% increase ofresponse time compared to Python dash-leaflet.
+    - Integrated REST APIs and Mapbox GL,reducing data processing time by 40%, empowering stakeholders
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: NATIONAL INSTITUE OF TECHNOLOGY (NIT) TRICHY .
+    url: "https://www.nitt.edu/"
+    location: Tiruchirappalli, Tamilnadu
+    overview: National Institute of Technology Trichy is one of the 31 National Institutes of Technology established by the Government of India.
+
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Machine Learning Research Intern
+    start: May 2023
+    end: Sept 2023
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Improved recommendation accuracy, precision,recall, f-measure by 10% using machine learning and similarity metrics.
+    - Implemented a wide array of Machine learning and deep learningalgorithms achieving significant increases in recommendation accuracy by 7% across diverse user choices and domains.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Tamil Nadu Lateral Entry Admissions (TNLEA).
+    url: "http://tnlea.com/"
+    location: Karaikudi, Tamilnadu
+    overview: The TNLEA Lateral Entry 2023 facilitates the admission of diploma holders or graduates into the second year of B.E./B.Tech. programs in Tamil Nadu.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Software Developer
+    start: Jul 2022
+    end: Aug 2023
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Managed counseling processes using LAMP stack, Administered server operations on AWS EC2 ubuntu and mentored fourjuniors along the process.
+    - Developed 500+ lines of code forlateral entry process and 1000+ lines for the college and Directorate of technical education (DOTE) module.
+
+- company:
+    name: Sony Research India.
+    url: "https://www.sonyresearchindia.com/"
+    location: Bengaluru, India
+    overview: Sony Research India (SRI) is an Indian arm of Sony's global Research & Development centres that focuses on entertainment, healthcare, music, and gaming. I Worked on a collaborative project with Sony Research India and IIT Patna.
+  positions:
+  - designation: Data Science Research Intern
+    start: Mar 2023
+    end: Jul 2023
+    responsibilities:
+    - Developed a multimodal movie recommendation system using Graph Neural Networks (GNN).
+    - Transitioned from a hybrid recommendation system to a GNN-based approach for improved performance.
+    - Conducted analysis to assess the suitability of the wav2clip model for enhancing the system.
