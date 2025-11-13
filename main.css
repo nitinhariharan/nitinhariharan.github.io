@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Cormorant+Garamond:wght@400;700&display=swap");
+
+:root {
+    --template-background: rgb(200, 200, 201);
+    --template-surface: rgb(178, 178, 178);
+    --template-stroke: rgb(156, 156, 156);
+    --template-stroke-opacity-30: rgba(156, 156, 156, 0.3);
+    --template-text: rgb(0, 0, 0);
+    --template-text-opacity-20: rgba(0, 0, 0, 0.2);
+    --template-text-opacity-50: rgba(0, 0, 0, 0.5);
+    --template-text-inverse: rgb(255, 255, 255);
+    --template-lead: rgb(0, 0, 0);
+    --template-lead-dark: rgb(0, 0, 0);
+    --template-secondary: rgb(0, 0, 0);
+    --template-background-hex: #c8c8c9;
+    --template-surface-hex: #b2b2b2;
+    --template-stroke-hex: #9c9c9c;
+    --template-text-hex: #000000;
+    --template-text-inverse-hex: #ffffff;
+    --template-lead-hex: #000000;
+    --template-secondary-hex: #000000;
+  }
+
+
+
+      :root {
+        --display-1-font-family: DM Sans;
+        --display-1-font-size: 120px;
+        --display-1-font-weight: 400;
+        --display-1-line-height: 100%;
+        --display-1-mobile-font-size: 60px;
+        --display-1-mobile-line-height: 100%;
+        --display-2-font-family: Cormorant Garamond;
+        --display-2-font-size: 18px;
+        --display-2-font-weight: 400;
+        --display-2-line-height: 140%;
+        --display-2-mobile-font-size: 16px;
+        --display-2-mobile-line-height: 140%;
+        --h1-font-family: DM Sans;
+        --h1-font-size: 24px;
+        --h1-font-weight: 700;
+        --h1-line-height: 120%;
+        --h1-mobile-font-size: 20px;
+        --h1-mobile-line-height: 120%;
+        --h4-font-family: DM Sans;
+        --h4-font-size: 14px;
+        --h4-font-weight: 700;
+        --h4-line-height: 140%;
+        --body-font-family: DM Sans;
+        --body-font-size: 14px;
+        --body-font-weight: 400;
+        --body-line-height: 150%;
+        --default-font-family: DM Sans;
+      }
