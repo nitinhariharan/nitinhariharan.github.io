@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detail Page Title | Nitin Hariharan</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #cfcfcf; /* Minimalist Gray */
+    }
+    .serif-text {
+      font-family: 'Playfair Display', serif;
+    }
+    html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+  </style>
+</head>
+<body class="text-gray-900 antialiased selection:bg-black selection:text-white pb-20">
+
+  <nav class="sticky top-0 z-50 bg-[#cfcfcf]/90 backdrop-blur-md border-b border-gray-400 py-6">
+    <div class="max-w-4xl mx-auto px-6 flex justify-between items-center">
+      <a href="index.html" class="font-bold text-xl tracking-tight hover:opacity-60 transition-opacity">← Back to Portfolio</a>
+      <span class="text-sm font-mono uppercase tracking-widest text-gray-600">Category Tag</span>
+    </div>
+  </nav>
+
+  <main class="max-w-4xl mx-auto px-6 py-16">
+
+    <header class="mb-16">
+      <h1 class="text-5xl md:text-7xl font-bold tracking-tighter text-black leading-tight">
+        Your Big Title Goes Here
+      </h1>
+      <p class="mt-6 text-2xl text-gray-800 serif-text italic">
+        A catchy subtitle explaining what this page is about.
+      </p>
+
+      <div class="flex flex-wrap gap-x-8 gap-y-4 mt-8 pt-8 border-t border-gray-400 text-sm font-mono uppercase tracking-wider text-gray-600">
+        <div><span class="font-bold text-black">Role/Type:</span> Developer</div>
+        <div><span class="font-bold text-black">Timeline:</span> Jan 2024 - Present</div>
+        <div><span class="font-bold text-black">Location:</span> Bengaluru</div>
+      </div>
+    </header>
+
+
+    <section class="mb-16">
+      <img src="https://via.placeholder.com/1200x600/a3a3a3/ffffff?text=Main+Project+Image" alt="Project Hero" class="w-full h-auto aspect-video object-cover shadow-lg border-4 border-gray-300">
+      <p class="text-sm text-gray-600 italic mt-3 text-center">Caption for the image (optional)</p>
+    </section>
+
+
+    <section class="mb-16 space-y-6 text-lg text-gray-800 leading-relaxed font-light">
+      <h2 class="text-3xl font-bold text-black tracking-tight mb-6">Overview</h2>
+      <p>
+        This is a standard paragraph block. You can use this to write the main body of your case study, experience description, or publication abstract. The text is large, readable, and highly contrasted against the gray background.
+      </p>
+      <p>
+        If you need a second paragraph, just add another `<p>` tag. The spacing is automatically handled.
+      </p>
+    </section>
+
+
+    <section class="mb-16 border-t border-gray-400 pt-16">
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-bold text-black mb-4">The Challenge</h3>
+          <p class="text-gray-800 font-light leading-relaxed">
+            Describe the problem you were trying to solve here. This two-column layout is great for comparing "Before/After" or "Problem/Solution".
+          </p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold text-black mb-4">The Solution</h3>
+          <p class="text-gray-800 font-light leading-relaxed">
+            Explain how you solved it. This keeps the page visually interesting instead of just having walls of text spanning the whole width.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="mb-16 border-t border-gray-400 pt-16">
+      <h2 class="text-3xl font-bold text-black tracking-tight mb-6">Key Responsibilities & Achievements</h2>
+      <ul class="list-disc list-inside space-y-3 text-lg font-medium text-black ml-2">
+        <li>Optimized core algorithms resulting in a 40% reduction in processing time.</li>
+        <li>Spearheaded the integration of a new semantic Knowledge Graph.</li>
+        <li>Collaborated with a cross-functional team of 5 engineers and designers.</li>
+        <li>Authored technical documentation used by the entire organization.</li>
+      </ul>
+    </section>
+
+
+    <section class="mb-16">
+      <blockquote class="border-l-4 border-black pl-6 my-12 text-3xl md:text-4xl serif-text text-gray-800 italic leading-snug">
+        "This project was a turning point. It taught me how to balance complex machine learning architectures with strict hardware constraints."
+      </blockquote>
+    </section>
+
+
+    <section class="mb-16 border-t border-gray-400 pt-16">
+      <h2 class="text-3xl font-bold text-black tracking-tight mb-8">Visuals & Diagrams</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <img src="https://via.placeholder.com/600x400/a3a3a3/ffffff?text=Image+1" alt="Detail 1" class="w-full h-auto border-4 border-gray-300">
+        <img src="https://via.placeholder.com/600x400/a3a3a3/ffffff?text=Image+2" alt="Detail 2" class="w-full h-auto border-4 border-gray-300">
+      </div>
+    </section>
+
+
+    <section class="mb-16 border-t border-gray-400 pt-16">
+      <h2 class="text-2xl font-bold text-black mb-6">Technologies Used</h2>
+      <div class="flex flex-wrap gap-3">
+        <span class="px-5 py-2 border-2 border-black rounded-full text-sm font-semibold hover:bg-black hover:text-[#cfcfcf] transition-colors cursor-default">Python</span>
+        <span class="px-5 py-2 border-2 border-black rounded-full text-sm font-semibold hover:bg-black hover:text-[#cfcfcf] transition-colors cursor-default">TensorFlow</span>
+        <span class="px-5 py-2 border-2 border-black rounded-full text-sm font-semibold hover:bg-black hover:text-[#cfcfcf] transition-colors cursor-default">Flask</span>
+        <span class="px-5 py-2 border-2 border-black rounded-full text-sm font-semibold hover:bg-black hover:text-[#cfcfcf] transition-colors cursor-default">PostgreSQL</span>
+      </div>
+    </section>
+
+
+    <section class="mt-20 pt-12 border-t border-black text-center">
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+        <a href="#" target="_blank" class="px-8 py-4 bg-black text-[#cfcfcf] font-bold rounded-full hover:bg-gray-800 transition-colors w-full sm:w-auto text-center">
+          View Live Project ↗
+        </a>
+        <a href="#" target="_blank" class="px-8 py-4 border-2 border-black text-black font-bold rounded-full hover:bg-black hover:text-[#cfcfcf] transition-colors w-full sm:w-auto text-center">
+          GitHub Repository
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
